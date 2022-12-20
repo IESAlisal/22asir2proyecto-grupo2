@@ -25,7 +25,7 @@
             <img src="images/logo-magtimus-small.png" alt="" class="logo">
             <h1 class="title">Registrarse</h1>
 
-            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+            <form action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>' method="post">
                
                 <label for="">Nombre de Usuario</label>
                 <input type="text" name="username">
