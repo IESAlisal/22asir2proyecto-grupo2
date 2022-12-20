@@ -35,7 +35,7 @@
                 <input type="submit" value="Iniciar">
 
             </form>
-
+            <p>&copy; IES. Alisal</p>
             <span class="text-footer">¿Aún no te has regsitrado?
                 <a href="register.php">Registrate</a>
             </span>

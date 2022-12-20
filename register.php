@@ -40,7 +40,7 @@
                 <input type="submit" value="Registrarse">
 
             </form>
-
+            <p>&copy; IES. Alisal</p>
             <span class="text-footer">¿Ya te has registrado?
                 <a href="index.php">Iniciar Sesión</a>
             </span>
