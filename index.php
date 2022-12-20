@@ -10,7 +10,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Login - MagtimusPro</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/estilos.css">
 
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -21,7 +21,6 @@
     <div class="container-all">
 
         <div class="ctn-form">
-            <img src="images/logo-magtimus-small.png" alt="" class="logo">
             <h1 class="title">Iniciar Sesión</h1>
 
             <form action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>' method="post">
