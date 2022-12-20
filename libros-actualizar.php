@@ -25,20 +25,14 @@
             <label for="">Libro</label>
                <ul><?php echo $getlibros; ?> </ul>
             <form action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>' method="post">
-               
-               <label for="">Libro</label>
-               <ul><?php echo $getlibros; ?> </ul>
-               <label for="">Año de Edicion</label>
-               <input type="text" name="anyo_edicion">
-               <span class="msg-error"> <?php echo $anyo_edicion; ?></span>
-               <label for="">Precio</label>
-               <input type="text" name="precio">
-               <span class="msg-error"> <?php echo $precio; ?></span>
-               <label for="">Fecha de  Adquisicion</label>
-               <input type="text" name="fechaAdquisicion">
-               <span class="msg-error"> <?php echo $fechaAdquisicion; ?></span>
-     
-
+               <table style="border=1">
+                   <td>TITULO</td>
+                   <td>PRECIO</td>
+                   <tr>
+                    <td><?php echo $titulo; ?> </td>;
+                    <input type="number" name="precio">
+                     <span class="msg-error"> <?php echo $precio; ?></span>
+                </table>
                <input type="submit" value="Actualizar">
 
            </form>
