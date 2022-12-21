@@ -1,37 +1,27 @@
-<?php
-
-    session_start();
-
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: index.php");
-    exit;
-}
-
-?>
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Bienvenido </title>
-    <link rel="stylesheet" href="css/estilos.css">
-    
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Bienvenida</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-   
-   <div class="ctn-welcome">
-       
-
-       <h1 class="title-welcome">Bienvenido a la aplicacion de libros</h1>
-       <a href="alta-libros.php" class="close-sesion">Alta de Libros</a>
-       <a href="libros-actualizar.php" class="close-sesion">Actualizar Libros</a>
-       <a href="baja-libro.php" class="close-sesion">Baja de Libros</a>
-       <a href="cerrar-sesion.php" class="close-sesion">Cerrar Sesión</a>
-       
-   </div>
-   
-    
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/bg.svg">
+		</div>
+		<div class="login-content">
+        <div class="welcome">
+            <a href="alta-libros.php"><h1>Alta de Libros</h1></a> 
+            <a href="actualizar-libro.php"><h1>Actualizar Libros</h1></a> 
+            <a href="baja-libro.php"><h1>Baja de Libros</h1></a>   
+            <a href="cerrar-sesion.php"><h3>Cerrar Sesion</h3></a>      
+            
+                   </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

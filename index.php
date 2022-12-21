@@ -1,48 +1,49 @@
-<?php
-    
-    require "code-login.php";
-
-?>
 
 
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/estilos.css">
-
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
-
-    <div class="container-all">
-
-        <div class="ctn-form">
-            <h1 class="title">Iniciar Sesión</h1>
-
-            <form action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>' method="post">
-
-                <label for="">Email</label>
-                <input type="text" name="email">
-                <span class="msg-error"><?php echo $email_err; ?></span>
-                <label for="">Contraseña</label>
-                <input type="password" name="password">
-                <span class="msg-error"><?php echo $password_err; ?></span>
-
-                <input type="submit" value="Iniciar">
-
-            </form>
-            <p>&copy; IES. Alisal</p>
-            <span class="text-footer">¿Aún no te has regsitrado?
-                <a href="register.php">Registrate</a>
-            </span>
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form action="index.php" method="post">
+				<img src="img/avatar.svg">
+				<h2 class="title">Bienvenido</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Usuario</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input">
+            	   </div>
+            	</div>
+            	
+            	<input type="submit" class="btn" value="Login"  > 
+				<a href="register.php">Registrate</a>
+		            </form>
+						
         </div>
-
     </div>
-
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
-
 </html>
