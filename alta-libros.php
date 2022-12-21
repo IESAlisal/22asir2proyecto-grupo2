@@ -35,7 +35,7 @@
                      		
                       	
             	<input type="submit" class="btn" value="Guardar Datos">
-                <a href="index.php">Volver</a>
+                <a href="bienvenida.php">Volver</a>
             </form>
 			
         </div>
