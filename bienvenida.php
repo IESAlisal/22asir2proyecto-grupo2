@@ -28,6 +28,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
        <a href="alta-libros.php" class="close-sesion">Alta de Libros</a>
        <a href="libros-actualizar.php" class="close-sesion">Actualizar Libros</a>
        <a href="baja-libro.php" class="close-sesion">Baja de Libros</a>
+       <a href="contacta.php" class="close-sesion">Contacta con Nosotros</a>
        <a href="cerrar-sesion.php" class="close-sesion">Cerrar Sesión</a>
        
    </div>

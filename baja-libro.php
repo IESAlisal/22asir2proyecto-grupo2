@@ -25,7 +25,7 @@
             <form action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>' method="post">
                
             <label for="">Libro</label>
-               <ul><?php echo $getlibros; ?> </ul>
+        
 
                <input type="submit" value="Borrar">
 
