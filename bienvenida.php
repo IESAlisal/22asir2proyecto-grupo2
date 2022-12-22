@@ -16,7 +16,7 @@
 		<div class="login-content">
         <div class="welcome">
             <a href="alta-libros.php"><h1>Alta de Libros</h1></a> 
-            <a href="actualizar-libro.php"><h1>Actualizar Libros</h1></a> 
+            <a href="actualizar.php"><h1>Actualizar Libros</h1></a> 
             <a href="baja-libro.php"><h1>Baja de Libros</h1></a>   
             <a href="cerrar-sesion.php"><h3>Cerrar Sesion</h3></a>      
             
